@@ -1,8 +1,19 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Network Devices Listing App
 
-## Getting Started
+This is a [Next.js](https://nextjs.org) web application for displaying and managing a list of **network devices for sale**. It was bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app) and is built using modern tools like TypeScript, Tailwind CSS, and the Next.js App Router.
 
-First, run the development server:
+## 📦 Features
+
+* Dynamic listing of devices (data-driven)
+* Clean and responsive UI
+* Easy to extend and customize
+* Built with scalability in mind
+* Logo and branding ready
+* Powered by the App Router (`app/` directory)
+
+## 🚀 Getting Started
+
+To run the development server locally:
 
 ```bash
 npm run dev
@@ -14,23 +25,36 @@ pnpm dev
 bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Then open [http://localhost:3000](http://localhost:3000) in your browser to view the app.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+> 📁 Start customizing the app by editing `app/page.tsx`. It will hot-reload as you make changes.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## 🧠 Tech Stack
 
-## Learn More
+* [Next.js](https://nextjs.org) — React Framework with App Router
+* [Tailwind CSS](https://tailwindcss.com) — Utility-first CSS framework
+* [TypeScript](https://www.typescriptlang.org/) — Type-safe JavaScript
+* [Geist Font](https://vercel.com/font) — Optimized and automatically loaded using `next/font`
 
-To learn more about Next.js, take a look at the following resources:
+## 📘 Learn More
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Useful resources to dive deeper:
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+* [Next.js Documentation](https://nextjs.org/docs)
+* [Next.js Learn](https://nextjs.org/learn)
+* [Tailwind CSS Docs](https://tailwindcss.com/docs)
 
-## Deploy on Vercel
+## 🌍 Deployment
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+The app is ready to be deployed to any platform. For best experience and performance, use [Vercel](https://vercel.com), the creators of Next.js:
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+➡️ [Deploy with Vercel](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme)
+
+## 📂 Project Structure
+
+```bash
+/app           # Main app pages (App Router)
+/public        # Static assets like images
+/styles        # Global styles (Tailwind base)
+/components    # Reusable UI components
+```
