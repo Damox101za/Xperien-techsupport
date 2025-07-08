@@ -1,103 +1,187 @@
-import Image from "next/image";
+'use client';
+import { useEffect, useState, useRef } from 'react';
 
-export default function Home() {
+export default function Page() {
+  const [devices, setDevices] = useState<string[][]>([]);
+  const [loading, setLoading] = useState(true);
+  const [error, setError] = useState<string | null>(null);
+  const fileInputRef = useRef<HTMLInputElement>(null);
+
+  const [filterText, setFilterText] = useState('');
+  const [sortColumn, setSortColumn] = useState<number | null>(null);
+  const [sortDirection, setSortDirection] = useState<'asc' | 'desc'>('asc');
+
+  const loadCSV = async () => {
+    setLoading(true);
+    setError(null);
+    try {
+      const res = await fetch('/devices.csv');
+      const text = await res.text();
+      const rows = text
+        .trim()
+        .split('\n')
+        .map(row => row.split(','));
+      setDevices(rows);
+    } catch (e) {
+      setError('Unable to load the network devices data.');
+    } finally {
+      setLoading(false);
+    }
+  };
+
+  useEffect(() => {
+    loadCSV();
+  }, []);
+
+  const handleSort = (columnIndex: number) => {
+    if (sortColumn === columnIndex) {
+      setSortDirection(prev => (prev === 'asc' ? 'desc' : 'asc'));
+    } else {
+      setSortColumn(columnIndex);
+      setSortDirection('asc');
+    }
+  };
+
+  const headers = devices[0] || [];
+  const dataRows = devices.slice(1);
+
+  // Filter
+  const filteredRows = dataRows.filter(row =>
+    row.some(cell =>
+      cell.toLowerCase().includes(filterText.toLowerCase())
+    )
+  );
+
+  // Sort
+  const sortedRows =
+    sortColumn !== null
+      ? [...filteredRows].sort((a, b) => {
+          const valA = a[sortColumn] || '';
+          const valB = b[sortColumn] || '';
+          return sortDirection === 'asc'
+            ? valA.localeCompare(valB)
+            : valB.localeCompare(valA);
+        })
+      : filteredRows;
+
   return (
-    <div className="grid grid-rows-[20px_1fr_20px] items-center justify-items-center min-h-screen p-8 pb-20 gap-16 sm:p-20 font-[family-name:var(--font-geist-sans)]">
-      <main className="flex flex-col gap-[32px] row-start-2 items-center sm:items-start">
-        <Image
-          className="dark:invert"
-          src="/next.svg"
-          alt="Next.js logo"
-          width={180}
-          height={38}
-          priority
-        />
-        <ol className="list-inside list-decimal text-sm/6 text-center sm:text-left font-[family-name:var(--font-geist-mono)]">
-          <li className="mb-2 tracking-[-.01em]">
-            Get started by editing{" "}
-            <code className="bg-black/[.05] dark:bg-white/[.06] px-1 py-0.5 rounded font-[family-name:var(--font-geist-mono)] font-semibold">
-              app/page.tsx
-            </code>
-            .
-          </li>
-          <li className="tracking-[-.01em]">
-            Save and see your changes instantly.
-          </li>
-        </ol>
-
-        <div className="flex gap-4 items-center flex-col sm:flex-row">
-          <a
-            className="rounded-full border border-solid border-transparent transition-colors flex items-center justify-center bg-foreground text-background gap-2 hover:bg-[#383838] dark:hover:bg-[#ccc] font-medium text-sm sm:text-base h-10 sm:h-12 px-4 sm:px-5 sm:w-auto"
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <Image
-              className="dark:invert"
-              src="/vercel.svg"
-              alt="Vercel logomark"
-              width={20}
-              height={20}
+    <div>
+      {/* Header */}
+      <header className="sticky-header">
+        <div className="header-content">
+          <img
+            src="/logo color@4x.png"
+            alt="Company Logo"
+            className="logo"
+          />
+          <div className="header-text">
+            <h1>Network Devices for Sale</h1>
+            <p className="subtitle">
+              Professional Network Equipment Inventory
+            </p>
+          </div>
+          <div className="header-actions">
+            <button className="btn btn-primary" onClick={loadCSV}>
+              <i className="fas fa-sync-alt"></i> Refresh Data
+            </button>
+            <input
+              type="file"
+              accept=".csv"
+              id="csvFileInput"
+              className="file-input"
+              ref={fileInputRef}
+              style={{ display: 'none' }}
             />
-            Deploy now
-          </a>
-          <a
-            className="rounded-full border border-solid border-black/[.08] dark:border-white/[.145] transition-colors flex items-center justify-center hover:bg-[#f2f2f2] dark:hover:bg-[#1a1a1a] hover:border-transparent font-medium text-sm sm:text-base h-10 sm:h-12 px-4 sm:px-5 w-full sm:w-auto md:w-[158px]"
-            href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Read our docs
-          </a>
+            <label htmlFor="csvFileInput" className="btn btn-secondary">
+              <i className="fas fa-upload"></i> Upload CSV
+            </label>
+          </div>
+        </div>
+      </header>
+
+      {/* Main Content */}
+      <main className="main-content">
+        <div className="content-wrapper">
+          <div className="description-section">
+            <p className="description">
+              <i className="fas fa-info-circle"></i>
+              Below is the current inventory of network devices available
+              for sale. The data is automatically loaded and updated in
+              real-time.
+            </p>
+          </div>
+
+          {/* Filter Input */}
+          {!loading && !error && (
+            <div style={{ marginBottom: '1rem' }}>
+              <input
+                type="text"
+                placeholder="Filter table..."
+                value={filterText}
+                onChange={e => setFilterText(e.target.value)}
+                className="btn"
+                style={{ width: '100%', maxWidth: 400 }}
+              />
+            </div>
+          )}
+
+          {/* Loading State */}
+          {loading && (
+            <div className="loading-container">
+              <div className="loader">
+                <i className="fas fa-spinner fa-spin"></i>
+                <p>Loading network devices...</p>
+              </div>
+            </div>
+          )}
+
+          {/* Error State */}
+          {error && (
+            <div className="error-container">
+              <div className="error-content">
+                <i className="fas fa-exclamation-triangle"></i>
+                <h3>Failed to Load Data</h3>
+                <p>{error}</p>
+                <button onClick={loadCSV} className="btn btn-primary">
+                  <i className="fas fa-redo"></i> Try Again
+                </button>
+              </div>
+            </div>
+          )}
+
+          {/* Table */}
+          {!loading && !error && (
+            <div className="table-container">
+              <table className="data-table">
+                <thead>
+                  <tr>
+                    {headers.map((header, i) => (
+                      <th
+                        key={i}
+                        onClick={() => handleSort(i)}
+                        style={{ cursor: 'pointer' }}
+                      >
+                        {header}
+                        {sortColumn === i &&
+                          (sortDirection === 'asc' ? ' 🔼' : ' 🔽')}
+                      </th>
+                    ))}
+                  </tr>
+                </thead>
+                <tbody>
+                  {sortedRows.map((row, i) => (
+                    <tr key={i}>
+                      {row.map((cell, j) => (
+                        <td key={j}>{cell}</td>
+                      ))}
+                    </tr>
+                  ))}
+                </tbody>
+              </table>
+            </div>
+          )}
         </div>
       </main>
-      <footer className="row-start-3 flex gap-[24px] flex-wrap items-center justify-center">
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="/file.svg"
-            alt="File icon"
-            width={16}
-            height={16}
-          />
-          Learn
-        </a>
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="/window.svg"
-            alt="Window icon"
-            width={16}
-            height={16}
-          />
-          Examples
-        </a>
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://nextjs.org?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="/globe.svg"
-            alt="Globe icon"
-            width={16}
-            height={16}
-          />
-          Go to nextjs.org →
-        </a>
-      </footer>
     </div>
   );
 }
