@@ -54,9 +54,9 @@ Cisco,C9300-48UXM-A V01,Cisco Catalyst 9300 Series,FCW2221G0TY,Switch,None,worki
 Cisco,C9300-48UXM-A V02,Cisco Catalyst 9300 Series,FOC2240X0QZ,Switch,PWR-C1-1100WAC V02/ PWR-C1-1100WAC V02,working/ scr,"RJ-45, uplinks: SFP+ (10-Gb) or SFP / multigig"
 Cisco,C9300L-48P-4G-E V04,Cisco Catalyst 9300 Series,FOC2548Y72F,Switch,PWR-C1-715WAC-P V01,working/ scr,"RJ-45, uplinks: SFP+ (10-Gb) or SFP / multigig"
 Cisco,C9300L-48P-4G-E V05,Cisco Catalyst 9300 Series,FOC2703Y5RL,Switch,PWR-C1-715WAC-P V01,working/ scr,"RJ-45, uplinks: SFP+ (10-Gb) or SFP / multigig"
-Cisco,unable to scan/barcode scratched ,Need to confirm,FDO1719P0M2,Switch,Normal,working/ scr/ blp,n/a
-Cisco,unable to scan/barcode scratched ,Need to confirm,FDO1652P0CZ,Switch,Normal,working/scr,n/a
-Cisco,unable to scan/barcode scratched ,Need to confirm,FDO1652P0DH,Switch,Normal,working/scr,n/a
+Cisco,unable to scan/barcode scratched ,Need to confirm,FDO1719P0M2,Switch,Normal,working/ scr/ blp,n&A
+Cisco,unable to scan/barcode scratched ,Need to confirm,FDO1652P0CZ,Switch,Normal,working/scr,n&A
+Cisco,unable to scan/barcode scratched ,Need to confirm,FDO1652P0DH,Switch,Normal,working/scr,n&A
 Cisco,WS-C2960S-24PS-L V03,Cisco Catalyst 2960-S Series,FOC1711Y38T,Switch,Normal,unable to boot,"RJ-45, uplinks: 2-SFP"
 Cisco,WS-C2960S-48LPS-L V02,Cisco Catalyst 2960-S Series,FOC1503X46A,Switch,Normal,working/scr,"RJ-45, uplinks: 2-SFP"
 Cisco,WS-C2960S-48LPS-L V02,Cisco Catalyst 2960-S Series,FOC1501Z1GY,Switch,Normal,working/scr,"RJ-45, uplinks: 2-SFP"
