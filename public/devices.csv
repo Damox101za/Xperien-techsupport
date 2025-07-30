@@ -1,86 +1,86 @@
 ﻿Brand,PID,Model,Serial Number,Type,PSU,Status,Port info
-Cisco,ASA5512 V01,Cisco ASA 5500-X Series,FCH16437126,Firewall,Normal,Damaged,6�RJ?45 data; RJ?45 mgmt; console RJ?45; USB A
-Cisco,ASA5512 V01,Cisco ASA 5500-X Series,FCH1643712R,Firewall,Normal,working/scr,6�RJ?45 data; RJ?45 mgmt; console RJ?45; USB A
-Cisco,ASA5512 V01,Cisco ASA 5500-X Series,FCH164370ZD,Firewall,Normal,unable to boot,6�RJ?45 data; RJ?45 mgmt; console RJ?45; USB A
-Cisco,ASA5512 V01,Cisco ASA 5500-X Series,FCH1643710K,Firewall,Normal,working/scr,6�RJ?45 data; RJ?45 mgmt; console RJ?45; USB A
-Cisco,ASA5512 V01,Cisco ASA 5500-X Series,FCH164370ZS,Firewall,Normal,working/scr,6�RJ?45 data; RJ?45 mgmt; console RJ?45; USB A
-Cisco,ASA5512 V03,Cisco ASA 5500-X Series,FCH183270PB,Firewall,Normal,working/scr,6�RJ?45 data; RJ?45 mgmt; console RJ?45; USB A
-Cisco,ASA5512 V03,Cisco ASA 5500-X Series,FCH183270MZ,Firewall,Normal,working/scr,6�RJ?45 data; RJ?45 mgmt; console RJ?45; USB A
-Cisco,ASA5515 V05,Cisco ASA 5500-X Series,FCH2020702A,Firewall,Normal,working/ scr,6�RJ?45 data; RJ?45 mgmt; console RJ?45; USB A
-Cisco,C1111-8PLTEEA V02,Cisco 1000 Series Integrated Services Route,FGL2552L3ZL,Router,None,working/ scr,RJ?45
-Cisco,C1111-8PLTEEA V02,Cisco 1000 Series Integrated Services Route,FGL2552L0Z0,Router,ADP-66CR B,working/ scr,RJ?45
-Cisco,C1111-8PLTEEA V02,Cisco 1000 Series Integrated Services Route,FGL2446LJ58,Router,None,working/ scr,RJ?45
-Cisco,C1111-8PLTEEA V02,Cisco 1000 Series Integrated Services Route,FGL232712YW,Router,ADP-66CR B,working/ scr,RJ?45
-Cisco,C1111-8PLTEEA V02,Cisco 1000 Series Integrated Services Route,FGL232613LM,Router,ADP-66CR B,working/ scr,RJ?45
-Cisco,C6800IA-48FPD V01,Cisco Catalyst 6800ia Series,FCW1909A2BX,Dependent switch,Normal,Need Mother to test,48�RJ?45 (fabric extender)
-Cisco,C6800IA-48FPD V01,Cisco Catalyst 6800ia Series,FCW1909A2B7,Dependent switch,Normal,Need Mother to test,48�RJ?45 (fabric extender)
-Cisco,C6800IA-48FPD V01,Cisco Catalyst 6800ia Series,FCW1909A2BA,Dependent switch,Normal,Need Mother to test,48�RJ?45 (fabric extender)
-Cisco,C6800IA-48FPD V01,Cisco Catalyst 6800ia Series,FCW1909A2AC,Dependent switch,Normal,Need Mother to test,48�RJ?45 (fabric extender)
-Cisco,C6800IA-48FPD V01,Cisco Catalyst 6800ia Series,FCW1909A2AW,Dependent switch,Normal,Need Mother to test,48�RJ?45 (fabric extender)
-Cisco,C6800IA-48FPD V01,Cisco Catalyst 6800ia Series,FCW1909A2G6,Dependent switch,Normal,Need Mother to test,48�RJ?45 (fabric extender)
-Cisco,C6800IA-48FPD V01,Cisco Catalyst 6800ia Series,FCW1909A2GA,Dependent switch,Normal,Need Mother to test,48�RJ?45 (fabric extender)
-Cisco,C6800IA-48FPD V01,Cisco Catalyst 6800ia Series,FCW1909A2BB,Dependent switch,Normal,Need Mother to test,48�RJ?45 (fabric extender)
-Cisco,C6800IA-48FPD V01,Cisco Catalyst 6800ia Series,FCW1909A2B1,Dependent switch,Normal,Need Mother to test,48�RJ?45 (fabric extender)
-Cisco,C6800IA-48FPD V01,Cisco Catalyst 6800ia Series,FOC1840S1W0,Dependent switch,Normal,Need Mother to test,48�RJ?45 (fabric extender)
-Cisco,C6800IA-48FPD V01,Cisco Catalyst 6800ia Series,FCW1909A2CV,Dependent switch,Normal,Need Mother to test,48�RJ?45 (fabric extender)
-Cisco,C6800IA-48FPD V01,Cisco Catalyst 6800ia Series,FCW1909A2AA,Dependent switch,Normal,Need Mother to test,48�RJ?45 (fabric extender)
-Cisco,C6800IA-48FPD V01,Cisco Catalyst 6800ia Series,FCW1909A2AE,Dependent switch,Normal,Need Mother to test,48�RJ?45 (fabric extender)
-Cisco,C6800IA-48FPD V01,Cisco Catalyst 6800ia Series,FCW1909A2BZ,Dependent switch,Normal,Need Mother to test,48�RJ?45 (fabric extender)
-Cisco,C6800IA-48FPD V01,Cisco Catalyst 6800ia Series,FCW1909A2A1,Dependent switch,Normal,Need Mother to test,48�RJ?45 (fabric extender)
-Cisco,C6800IA-48FPD V01,Cisco Catalyst 6800ia Series,FCW1909A2AQ,Dependent switch,Normal,Need Mother to test,48�RJ?45 (fabric extender)
-Cisco,C6800IA-48FPD V01,Cisco Catalyst 6800ia Series,FCW1909A29X,Dependent switch,Normal,Need Mother to test,48�RJ?45 (fabric extender)
-Cisco,C6800IA-48FPD V01,Cisco Catalyst 6800ia Series,FCW1909A2A9,Dependent switch,Normal,Need Mother to test,48�RJ?45 (fabric extender)
-Cisco,C6800IA-48FPD V01,Cisco Catalyst 6800ia Series,FOC1840S1XK,Dependent switch,Normal,Need Mother to test,48�RJ?45 (fabric extender)
-Cisco,C6800IA-48FPD V01,Cisco Catalyst 6800ia Series,FCW1909A2AS,Dependent switch,Normal,Need Mother to test,48�RJ?45 (fabric extender)
-Cisco,C6800IA-48FPD V01,Cisco Catalyst 6800ia Series,FCW1909A2FA,Dependent switch,Normal,Need Mother to test,48�RJ?45 (fabric extender)
-Cisco,C6800IA-48FPD V01,Cisco Catalyst 6800ia Series,FCW1909A2A8,Dependent switch,Normal,Need Mother to test,48�RJ?45 (fabric extender)
-Cisco,C6800IA-48FPD V02,Cisco Catalyst 6800ia Series,FCW1934B6K4,Dependent switch,Normal,Need Mother to test,48�RJ?45 (fabric extender)
-Cisco,C6800IA-48FPD V03,Cisco Catalyst 6800ia Series,FCW1818A6F0,Dependent switch,Normal,Need Mother to test,48�RJ?45 (fabric extender)
-Cisco,C6800IA-48FPD V03,Cisco Catalyst 6800ia Series,FCW1923B029,Dependent switch,Normal,Need Mother to test,48�RJ?45 (fabric extender)
-Cisco,C9200-24P-A V01,Cisco Catalyst 9200 Series,JAE24450CFG,Switch,None,NPO,"RJ?45, uplinks: 4�SFP"
-Cisco,C9200-48P-A V01,Cisco Catalyst 9200 Series,JAE234602HZ,Switch,PWR-C6-1KWAC V01,working/ scr,"RJ?45, uplinks: 4�SFP"
-Cisco,C9200-48P-A V01,Cisco Catalyst 9200 Series,JAE234602KC,Switch,PWR-C6-1KWAC V01,working/ scr,"RJ?45, uplinks: 4�SFP"
-Cisco,C9300-24P-E V03,Cisco Catalyst 9300 Series,FOC2604Y2WT,Switch,PWR-C1-715WAC-P V01/ PWR-C1-715WAC-P V01,working/scr,"RJ?45, uplinks: SFP+ (10?Gb) or SFP / multigig"
-Cisco,C9300-24P-E V03,Cisco Catalyst 9300 Series,FOC2604Y4ZB,Switch,PWR-C1-715WAC-P V01,working/scr,"RJ?45, uplinks: SFP+ (10?Gb) or SFP / multigig"
-Cisco,C9300-24P-E V03,Cisco Catalyst 9300 Series,FOC2604Y2S2,Switch,PWR-C1-715WAC-P V01,working/scr,"RJ?45, uplinks: SFP+ (10?Gb) or SFP / multigig"
-Cisco,C9300-24P-E V03,Cisco Catalyst 9300 Series,FOC2604Y4V5,Switch,PWR-C1-715WAC-P V01/ PWR-C1-715WAC-P V01,working/scr,"RJ?45, uplinks: SFP+ (10?Gb) or SFP / multigig"
-Cisco,C9300-24P-E V03,Cisco Catalyst 9300 Series,FOC2604Y4VF,Switch,PWR-C1-715WAC-P V01,working/scr,"RJ?45, uplinks: SFP+ (10?Gb) or SFP / multigig"
-Cisco,C9300-24P-E V05,Cisco Catalyst 9300 Series,FOC2538YT3L,Switch,PWR-C1-715WAC-P V01,working/scr,"RJ?45, uplinks: SFP+ (10?Gb) or SFP / multigig"
-Cisco,C9300-24P-E V05,Cisco Catalyst 9300 Series,FOC2533LJQD,Switch,PWR-C1-715WAC-P V01,working/scr,"RJ?45, uplinks: SFP+ (10?Gb) or SFP / multigig"
-Cisco,C9300-24P-E V05,Cisco Catalyst 9300 Series,FOC2530LHPL,Switch,PWR-C1-715WAC-P V01,working/scr,"RJ?45, uplinks: SFP+ (10?Gb) or SFP / multigig"
-Cisco,C9300-24P-E V05,Cisco Catalyst 9300 Series,FOC2537Y8ZK,Switch,PWR-C1-715WAC-P V01/ PWR-C1-715WAC-P V01,working/scr,"RJ?45, uplinks: SFP+ (10?Gb) or SFP / multigig"
-Cisco,C9300-48P-A V02,Cisco Catalyst 9300 Series,FOC2245X1AG,Switch,PWR-C1-1100WAC V01/ PWR-C1-1100WAC V02,working/ scr,"RJ?45, uplinks: SFP+ (10?Gb) or SFP / multigig"
-Cisco,C9300-48UXM-A V01,Cisco Catalyst 9300 Series,FCW2221G0TY,Switch,None,working/ scr,"RJ?45, uplinks: SFP+ (10?Gb) or SFP / multigig"
-Cisco,C9300-48UXM-A V02,Cisco Catalyst 9300 Series,FOC2240X0QZ,Switch,PWR-C1-1100WAC V02/ PWR-C1-1100WAC V02,working/ scr,"RJ?45, uplinks: SFP+ (10?Gb) or SFP / multigig"
-Cisco,C9300L-48P-4G-E V04,Cisco Catalyst 9300 Series,FOC2548Y72F,Switch,PWR-C1-715WAC-P V01,working/ scr,"RJ?45, uplinks: SFP+ (10?Gb) or SFP / multigig"
-Cisco,C9300L-48P-4G-E V05,Cisco Catalyst 9300 Series,FOC2703Y5RL,Switch,PWR-C1-715WAC-P V01,working/ scr,"RJ?45, uplinks: SFP+ (10?Gb) or SFP / multigig"
+Cisco,ASA5512 V01,Cisco ASA 5500-X Series,FCH16437126,Firewall,Normal,Damaged,6-RJ-45 data; RJ-45 mgmt; console RJ-45; USB A
+Cisco,ASA5512 V01,Cisco ASA 5500-X Series,FCH1643712R,Firewall,Normal,working/scr,6-RJ-45 data; RJ-45 mgmt; console RJ-45; USB A
+Cisco,ASA5512 V01,Cisco ASA 5500-X Series,FCH164370ZD,Firewall,Normal,unable to boot,6-RJ-45 data; RJ-45 mgmt; console RJ-45; USB A
+Cisco,ASA5512 V01,Cisco ASA 5500-X Series,FCH1643710K,Firewall,Normal,working/scr,6-RJ-45 data; RJ-45 mgmt; console RJ-45; USB A
+Cisco,ASA5512 V01,Cisco ASA 5500-X Series,FCH164370ZS,Firewall,Normal,working/scr,6-RJ-45 data; RJ-45 mgmt; console RJ-45; USB A
+Cisco,ASA5512 V03,Cisco ASA 5500-X Series,FCH183270PB,Firewall,Normal,working/scr,6-RJ-45 data; RJ-45 mgmt; console RJ-45; USB A
+Cisco,ASA5512 V03,Cisco ASA 5500-X Series,FCH183270MZ,Firewall,Normal,working/scr,6-RJ-45 data; RJ-45 mgmt; console RJ-45; USB A
+Cisco,ASA5515 V05,Cisco ASA 5500-X Series,FCH2020702A,Firewall,Normal,working/ scr,6-RJ-45 data; RJ-45 mgmt; console RJ-45; USB A
+Cisco,C1111-8PLTEEA V02,Cisco 1000 Series Integrated Services Route,FGL2552L3ZL,Router,None,working/ scr,RJ-45
+Cisco,C1111-8PLTEEA V02,Cisco 1000 Series Integrated Services Route,FGL2552L0Z0,Router,ADP-66CR B,working/ scr,RJ-45
+Cisco,C1111-8PLTEEA V02,Cisco 1000 Series Integrated Services Route,FGL2446LJ58,Router,None,working/ scr,RJ-45
+Cisco,C1111-8PLTEEA V02,Cisco 1000 Series Integrated Services Route,FGL232712YW,Router,ADP-66CR B,working/ scr,RJ-45
+Cisco,C1111-8PLTEEA V02,Cisco 1000 Series Integrated Services Route,FGL232613LM,Router,ADP-66CR B,working/ scr,RJ-45
+Cisco,C6800IA-48FPD V01,Cisco Catalyst 6800ia Series,FCW1909A2BX,Dependent switch,Normal,Need Mother to test,48-RJ-45 (fabric extender)
+Cisco,C6800IA-48FPD V01,Cisco Catalyst 6800ia Series,FCW1909A2B7,Dependent switch,Normal,Need Mother to test,48-RJ-45 (fabric extender)
+Cisco,C6800IA-48FPD V01,Cisco Catalyst 6800ia Series,FCW1909A2BA,Dependent switch,Normal,Need Mother to test,48-RJ-45 (fabric extender)
+Cisco,C6800IA-48FPD V01,Cisco Catalyst 6800ia Series,FCW1909A2AC,Dependent switch,Normal,Need Mother to test,48-RJ-45 (fabric extender)
+Cisco,C6800IA-48FPD V01,Cisco Catalyst 6800ia Series,FCW1909A2AW,Dependent switch,Normal,Need Mother to test,48-RJ-45 (fabric extender)
+Cisco,C6800IA-48FPD V01,Cisco Catalyst 6800ia Series,FCW1909A2G6,Dependent switch,Normal,Need Mother to test,48-RJ-45 (fabric extender)
+Cisco,C6800IA-48FPD V01,Cisco Catalyst 6800ia Series,FCW1909A2GA,Dependent switch,Normal,Need Mother to test,48-RJ-45 (fabric extender)
+Cisco,C6800IA-48FPD V01,Cisco Catalyst 6800ia Series,FCW1909A2BB,Dependent switch,Normal,Need Mother to test,48-RJ-45 (fabric extender)
+Cisco,C6800IA-48FPD V01,Cisco Catalyst 6800ia Series,FCW1909A2B1,Dependent switch,Normal,Need Mother to test,48-RJ-45 (fabric extender)
+Cisco,C6800IA-48FPD V01,Cisco Catalyst 6800ia Series,FOC1840S1W0,Dependent switch,Normal,Need Mother to test,48-RJ-45 (fabric extender)
+Cisco,C6800IA-48FPD V01,Cisco Catalyst 6800ia Series,FCW1909A2CV,Dependent switch,Normal,Need Mother to test,48-RJ-45 (fabric extender)
+Cisco,C6800IA-48FPD V01,Cisco Catalyst 6800ia Series,FCW1909A2AA,Dependent switch,Normal,Need Mother to test,48-RJ-45 (fabric extender)
+Cisco,C6800IA-48FPD V01,Cisco Catalyst 6800ia Series,FCW1909A2AE,Dependent switch,Normal,Need Mother to test,48-RJ-45 (fabric extender)
+Cisco,C6800IA-48FPD V01,Cisco Catalyst 6800ia Series,FCW1909A2BZ,Dependent switch,Normal,Need Mother to test,48-RJ-45 (fabric extender)
+Cisco,C6800IA-48FPD V01,Cisco Catalyst 6800ia Series,FCW1909A2A1,Dependent switch,Normal,Need Mother to test,48-RJ-45 (fabric extender)
+Cisco,C6800IA-48FPD V01,Cisco Catalyst 6800ia Series,FCW1909A2AQ,Dependent switch,Normal,Need Mother to test,48-RJ-45 (fabric extender)
+Cisco,C6800IA-48FPD V01,Cisco Catalyst 6800ia Series,FCW1909A29X,Dependent switch,Normal,Need Mother to test,48-RJ-45 (fabric extender)
+Cisco,C6800IA-48FPD V01,Cisco Catalyst 6800ia Series,FCW1909A2A9,Dependent switch,Normal,Need Mother to test,48-RJ-45 (fabric extender)
+Cisco,C6800IA-48FPD V01,Cisco Catalyst 6800ia Series,FOC1840S1XK,Dependent switch,Normal,Need Mother to test,48-RJ-45 (fabric extender)
+Cisco,C6800IA-48FPD V01,Cisco Catalyst 6800ia Series,FCW1909A2AS,Dependent switch,Normal,Need Mother to test,48-RJ-45 (fabric extender)
+Cisco,C6800IA-48FPD V01,Cisco Catalyst 6800ia Series,FCW1909A2FA,Dependent switch,Normal,Need Mother to test,48-RJ-45 (fabric extender)
+Cisco,C6800IA-48FPD V01,Cisco Catalyst 6800ia Series,FCW1909A2A8,Dependent switch,Normal,Need Mother to test,48-RJ-45 (fabric extender)
+Cisco,C6800IA-48FPD V02,Cisco Catalyst 6800ia Series,FCW1934B6K4,Dependent switch,Normal,Need Mother to test,48-RJ-45 (fabric extender)
+Cisco,C6800IA-48FPD V03,Cisco Catalyst 6800ia Series,FCW1818A6F0,Dependent switch,Normal,Need Mother to test,48-RJ-45 (fabric extender)
+Cisco,C6800IA-48FPD V03,Cisco Catalyst 6800ia Series,FCW1923B029,Dependent switch,Normal,Need Mother to test,48-RJ-45 (fabric extender)
+Cisco,C9200-24P-A V01,Cisco Catalyst 9200 Series,JAE24450CFG,Switch,None,NPO,"RJ-45, uplinks: 4-SFP"
+Cisco,C9200-48P-A V01,Cisco Catalyst 9200 Series,JAE234602HZ,Switch,PWR-C6-1KWAC V01,working/ scr,"RJ-45, uplinks: 4-SFP"
+Cisco,C9200-48P-A V01,Cisco Catalyst 9200 Series,JAE234602KC,Switch,PWR-C6-1KWAC V01,working/ scr,"RJ-45, uplinks: 4-SFP"
+Cisco,C9300-24P-E V03,Cisco Catalyst 9300 Series,FOC2604Y2WT,Switch,PWR-C1-715WAC-P V01/ PWR-C1-715WAC-P V01,working/scr,"RJ-45, uplinks: SFP+ (10-Gb) or SFP / multigig"
+Cisco,C9300-24P-E V03,Cisco Catalyst 9300 Series,FOC2604Y4ZB,Switch,PWR-C1-715WAC-P V01,working/scr,"RJ-45, uplinks: SFP+ (10-Gb) or SFP / multigig"
+Cisco,C9300-24P-E V03,Cisco Catalyst 9300 Series,FOC2604Y2S2,Switch,PWR-C1-715WAC-P V01,working/scr,"RJ-45, uplinks: SFP+ (10-Gb) or SFP / multigig"
+Cisco,C9300-24P-E V03,Cisco Catalyst 9300 Series,FOC2604Y4V5,Switch,PWR-C1-715WAC-P V01/ PWR-C1-715WAC-P V01,working/scr,"RJ-45, uplinks: SFP+ (10-Gb) or SFP / multigig"
+Cisco,C9300-24P-E V03,Cisco Catalyst 9300 Series,FOC2604Y4VF,Switch,PWR-C1-715WAC-P V01,working/scr,"RJ-45, uplinks: SFP+ (10-Gb) or SFP / multigig"
+Cisco,C9300-24P-E V05,Cisco Catalyst 9300 Series,FOC2538YT3L,Switch,PWR-C1-715WAC-P V01,working/scr,"RJ-45, uplinks: SFP+ (10-Gb) or SFP / multigig"
+Cisco,C9300-24P-E V05,Cisco Catalyst 9300 Series,FOC2533LJQD,Switch,PWR-C1-715WAC-P V01,working/scr,"RJ-45, uplinks: SFP+ (10-Gb) or SFP / multigig"
+Cisco,C9300-24P-E V05,Cisco Catalyst 9300 Series,FOC2530LHPL,Switch,PWR-C1-715WAC-P V01,working/scr,"RJ-45, uplinks: SFP+ (10-Gb) or SFP / multigig"
+Cisco,C9300-24P-E V05,Cisco Catalyst 9300 Series,FOC2537Y8ZK,Switch,PWR-C1-715WAC-P V01/ PWR-C1-715WAC-P V01,working/scr,"RJ-45, uplinks: SFP+ (10-Gb) or SFP / multigig"
+Cisco,C9300-48P-A V02,Cisco Catalyst 9300 Series,FOC2245X1AG,Switch,PWR-C1-1100WAC V01/ PWR-C1-1100WAC V02,working/ scr,"RJ-45, uplinks: SFP+ (10-Gb) or SFP / multigig"
+Cisco,C9300-48UXM-A V01,Cisco Catalyst 9300 Series,FCW2221G0TY,Switch,None,working/ scr,"RJ-45, uplinks: SFP+ (10-Gb) or SFP / multigig"
+Cisco,C9300-48UXM-A V02,Cisco Catalyst 9300 Series,FOC2240X0QZ,Switch,PWR-C1-1100WAC V02/ PWR-C1-1100WAC V02,working/ scr,"RJ-45, uplinks: SFP+ (10-Gb) or SFP / multigig"
+Cisco,C9300L-48P-4G-E V04,Cisco Catalyst 9300 Series,FOC2548Y72F,Switch,PWR-C1-715WAC-P V01,working/ scr,"RJ-45, uplinks: SFP+ (10-Gb) or SFP / multigig"
+Cisco,C9300L-48P-4G-E V05,Cisco Catalyst 9300 Series,FOC2703Y5RL,Switch,PWR-C1-715WAC-P V01,working/ scr,"RJ-45, uplinks: SFP+ (10-Gb) or SFP / multigig"
 Cisco,unable to scan/barcode scratched ,Need to confirm,FDO1719P0M2,Switch,Normal,working/ scr/ blp,n/a
 Cisco,unable to scan/barcode scratched ,Need to confirm,FDO1652P0CZ,Switch,Normal,working/scr,n/a
 Cisco,unable to scan/barcode scratched ,Need to confirm,FDO1652P0DH,Switch,Normal,working/scr,n/a
-Cisco,WS-C2960S-24PS-L V03,Cisco Catalyst 2960-S Series,FOC1711Y38T,Switch,Normal,unable to boot,"RJ?45, uplinks: 2�SFP"
-Cisco,WS-C2960S-48LPS-L V02,Cisco Catalyst 2960-S Series,FOC1503X46A,Switch,Normal,working/scr,"RJ?45, uplinks: 2�SFP"
-Cisco,WS-C2960S-48LPS-L V02,Cisco Catalyst 2960-S Series,FOC1501Z1GY,Switch,Normal,working/scr,"RJ?45, uplinks: 2�SFP"
-Cisco,WS-C2960X-24PS-L V01,Cisco Catalyst 2960-X Series,FOC1816S1TE,Switch,Normal,working/ scr,"RJ?45, uplinks: 2 or 4� SFP or SFP+"
-Cisco,WS-C2960X-24PS-L V01,Cisco Catalyst 2960-X Series,FCW1816B0LG,Switch,Normal,working/ scr,"RJ?45, uplinks: 2 or 4� SFP or SFP+"
-Cisco,WS-C2960X-24PS-L V02,Cisco Catalyst 2960-X Series,FCW1909B1H5,Switch,Normal,working/ scr,"RJ?45, uplinks: 2 or 4� SFP or SFP+"
-Cisco,WS-C2960X-24PS-L V05,Cisco Catalyst 2960-X Series,FCW2115B5ZQ,Switch,Normal,working/ scr,"RJ?45, uplinks: 2 or 4� SFP or SFP+"
-Cisco,WS-C2960X-24TS-L V02,Cisco Catalyst 2960-X Series,FCW1810A1WM,Switch,Normal,working/ scr,"RJ?45, uplinks: 2 or 4� SFP or SFP+"
-Cisco,WS-C2960X-48FPD-L V02,Cisco Catalyst 2960-X Series,FOC1927S2X5,Switch,Normal,working/ scr,"RJ?45, uplinks: 2 or 4� SFP or SFP+"
-Cisco,WS-C2960X-48FPD-L V08,Cisco Catalyst 2960-X Series,FOC2310T4DS,Switch,Normal,working/ scr,"RJ?45, uplinks: 2 or 4� SFP or SFP+"
-Cisco,WS-C2960X-48FPD-L V08,Cisco Catalyst 2960-X Series,FOC2310T4EN,Switch,Normal,working/ scr,"RJ?45, uplinks: 2 or 4� SFP or SFP+"
-Cisco,WS-C2960X-48FPS-L V02,Cisco Catalyst 2960-X Series,FOC1942S1VJ,Switch,Normal,working/ scr,"RJ?45, uplinks: 2 or 4� SFP or SFP+"
-Cisco,WS-C2960X-48FPS-L V04,Cisco Catalyst 2960-X Series,FOC2036V16K,Switch,Normal,working/ scr,"RJ?45, uplinks: 2 or 4� SFP or SFP+"
-Cisco,WS-C2960X-48TS-L V02,Cisco Catalyst 2960-X Series,FOC1805S1LF,Switch,Normal,working/ scr/ blp,"RJ?45, uplinks: 2 or 4� SFP or SFP+"
-Cisco,WS-C3750G-24TS-E1U V01,Cisco Catalyst 3750 Series,FOC0905U0RB,Switch,Normal,working/scr,RJ?45 with SFP / SFP+ uplinks
-Cisco,WS-C3750X-12S-S V05,Cisco Catalyst 3750-X Series,FDO1827P1JY,Switch,C3KX-PWR-350WAC V03,working/ scr,RJ?45 with SFP / SFP+ uplinks
-Cisco,WS-C3750X-24P-S V04,Cisco Catalyst 3750-X Series,FDO1652P0GA,Switch,Normal,working/ scr,RJ?45 with SFP / SFP+ uplinks
-Cisco,WS-C3750X-24P-S V04,Cisco Catalyst 3750-X Series,FDO1704P201,Switch,Normal,working/scr,RJ?45 with SFP / SFP+ uplinks
-Cisco,WS-C3750X-24P-S V07,Cisco Catalyst 3750-X Series,FDO1945F1A5,Switch,Normal,working/scr,RJ?45 with SFP / SFP+ uplinks
-Cisco,WS-C3850-12XS-E V02,Cisco Catalyst 3850 Series,FOC2143U1EB,Switch,PWR-C1-350WAC V02/ PWR-C1-350WAC V02,POR X2,RJ?45 with SFP / SFP+ uplinks
-Cisco,WS-C3850-48F-L V04,Cisco Catalyst 3850 Series,XP552418,Switch,PWR-C1-1100WAC V01,POR X2,RJ?45 with SFP / SFP+ uplinks
-Cisco,WS-C3850-48U-E V06,Cisco Catalyst 3850 Series,FCW2205C1EG,Switch,PWR-C1-1100WAC V02,working/ scr,RJ?45 with SFP / SFP+ uplinks
-DELL,5548P,Dell PowerConnect 5548P,GYV7VS1,Switch,Normal,SCR,RJ?45
-DELL,N4032,Dell PowerSwitch N4032,BDMNX42,Switch,DPS-460KB C/ DPS-460KB C,working/ scr,24�10G SFP+; 2�QSFP+ uplinks; RJ?45 mgmt
-DELL,N4032,Dell PowerSwitch N4032,BLMNX42,Switch,DPS-460KB C/ DPS-460KB C,working/ scr,24�10G SFP+; 2�QSFP+ uplinks; RJ?45 mgmt
-DELL,S4048-ON,DELL EMC POWERSWITCH S4048-ON SWITCH,BS98Y42,Switch,DPS-460KB C,scr,48�10G SFP+; 6�40G QSFP+
-Juniper Netwoks,EX3400 POE+,Juniper Networks EX3400 Ethernet Switch,NY0220121539,Switch,JPSU-920-AC-AFO,Firmware/ not installed,48�1G RJ?45 PoE+; 4�SFP+ (1/10G); 2�QSFP+
+Cisco,WS-C2960S-24PS-L V03,Cisco Catalyst 2960-S Series,FOC1711Y38T,Switch,Normal,unable to boot,"RJ-45, uplinks: 2-SFP"
+Cisco,WS-C2960S-48LPS-L V02,Cisco Catalyst 2960-S Series,FOC1503X46A,Switch,Normal,working/scr,"RJ-45, uplinks: 2-SFP"
+Cisco,WS-C2960S-48LPS-L V02,Cisco Catalyst 2960-S Series,FOC1501Z1GY,Switch,Normal,working/scr,"RJ-45, uplinks: 2-SFP"
+Cisco,WS-C2960X-24PS-L V01,Cisco Catalyst 2960-X Series,FOC1816S1TE,Switch,Normal,working/ scr,"RJ-45, uplinks: 2 or 4- SFP or SFP+"
+Cisco,WS-C2960X-24PS-L V01,Cisco Catalyst 2960-X Series,FCW1816B0LG,Switch,Normal,working/ scr,"RJ-45, uplinks: 2 or 4- SFP or SFP+"
+Cisco,WS-C2960X-24PS-L V02,Cisco Catalyst 2960-X Series,FCW1909B1H5,Switch,Normal,working/ scr,"RJ-45, uplinks: 2 or 4- SFP or SFP+"
+Cisco,WS-C2960X-24PS-L V05,Cisco Catalyst 2960-X Series,FCW2115B5ZQ,Switch,Normal,working/ scr,"RJ-45, uplinks: 2 or 4- SFP or SFP+"
+Cisco,WS-C2960X-24TS-L V02,Cisco Catalyst 2960-X Series,FCW1810A1WM,Switch,Normal,working/ scr,"RJ-45, uplinks: 2 or 4- SFP or SFP+"
+Cisco,WS-C2960X-48FPD-L V02,Cisco Catalyst 2960-X Series,FOC1927S2X5,Switch,Normal,working/ scr,"RJ-45, uplinks: 2 or 4- SFP or SFP+"
+Cisco,WS-C2960X-48FPD-L V08,Cisco Catalyst 2960-X Series,FOC2310T4DS,Switch,Normal,working/ scr,"RJ-45, uplinks: 2 or 4- SFP or SFP+"
+Cisco,WS-C2960X-48FPD-L V08,Cisco Catalyst 2960-X Series,FOC2310T4EN,Switch,Normal,working/ scr,"RJ-45, uplinks: 2 or 4- SFP or SFP+"
+Cisco,WS-C2960X-48FPS-L V02,Cisco Catalyst 2960-X Series,FOC1942S1VJ,Switch,Normal,working/ scr,"RJ-45, uplinks: 2 or 4- SFP or SFP+"
+Cisco,WS-C2960X-48FPS-L V04,Cisco Catalyst 2960-X Series,FOC2036V16K,Switch,Normal,working/ scr,"RJ-45, uplinks: 2 or 4- SFP or SFP+"
+Cisco,WS-C2960X-48TS-L V02,Cisco Catalyst 2960-X Series,FOC1805S1LF,Switch,Normal,working/ scr/ blp,"RJ-45, uplinks: 2 or 4- SFP or SFP+"
+Cisco,WS-C3750G-24TS-E1U V01,Cisco Catalyst 3750 Series,FOC0905U0RB,Switch,Normal,working/scr,RJ-45 with SFP / SFP+ uplinks
+Cisco,WS-C3750X-12S-S V05,Cisco Catalyst 3750-X Series,FDO1827P1JY,Switch,C3KX-PWR-350WAC V03,working/ scr,RJ-45 with SFP / SFP+ uplinks
+Cisco,WS-C3750X-24P-S V04,Cisco Catalyst 3750-X Series,FDO1652P0GA,Switch,Normal,working/ scr,RJ-45 with SFP / SFP+ uplinks
+Cisco,WS-C3750X-24P-S V04,Cisco Catalyst 3750-X Series,FDO1704P201,Switch,Normal,working/scr,RJ-45 with SFP / SFP+ uplinks
+Cisco,WS-C3750X-24P-S V07,Cisco Catalyst 3750-X Series,FDO1945F1A5,Switch,Normal,working/scr,RJ-45 with SFP / SFP+ uplinks
+Cisco,WS-C3850-12XS-E V02,Cisco Catalyst 3850 Series,FOC2143U1EB,Switch,PWR-C1-350WAC V02/ PWR-C1-350WAC V02,POR X2,RJ-45 with SFP / SFP+ uplinks
+Cisco,WS-C3850-48F-L V04,Cisco Catalyst 3850 Series,XP552418,Switch,PWR-C1-1100WAC V01,POR X2,RJ-45 with SFP / SFP+ uplinks
+Cisco,WS-C3850-48U-E V06,Cisco Catalyst 3850 Series,FCW2205C1EG,Switch,PWR-C1-1100WAC V02,working/ scr,RJ-45 with SFP / SFP+ uplinks
+DELL,5548P,Dell PowerConnect 5548P,GYV7VS1,Switch,Normal,SCR,RJ-45
+DELL,N4032,Dell PowerSwitch N4032,BDMNX42,Switch,DPS-460KB C/ DPS-460KB C,working/ scr,24-10G SFP+; 2-QSFP+ uplinks; RJ-45 mgmt
+DELL,N4032,Dell PowerSwitch N4032,BLMNX42,Switch,DPS-460KB C/ DPS-460KB C,working/ scr,24-10G SFP+; 2-QSFP+ uplinks; RJ-45 mgmt
+DELL,S4048-ON,DELL EMC POWERSWITCH S4048-ON SWITCH,BS98Y42,Switch,DPS-460KB C,scr,48-10G SFP+; 6-40G QSFP+
+Juniper Netwoks,EX3400 POE+,Juniper Networks EX3400 Ethernet Switch,NY0220121539,Switch,JPSU-920-AC-AFO,Firmware/ not installed,48-1G RJ-45 PoE+; 4-SFP+ (1/10G); 2-QSFP+
